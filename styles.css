@@ -1,8 +1,7 @@
-body {
+.scene {
   background-color: black;
   margin: auto;
   padding: 0;
-  /* position: static; */
   width: 100vw;
   height: 100vh;
 }
@@ -31,6 +30,8 @@ body {
   margin: 0;
   padding: 0;
   z-index: 200;
+
+  filter: brightness(-100%);
 }
 
 .title-image {
@@ -38,11 +39,11 @@ body {
 }
 
 .title-footer {
-  max-width: 20vw;
+  max-width: 30vw;
 
   position: relative !important;
-  top: calc(45.5% - 7.5vh) !important;
-  left: calc(50% - 8.5vw) !important;
+  top: calc(45.5% - 15vh) !important;
+  left: calc(50% - 12.5vw) !important;
   transform: translate(-50%, -50%);
   margin: 0;
   padding: 0;
@@ -52,17 +53,36 @@ body {
 }
 
 .title-text {
-  color: #86868b;
-  font-size: 2.25vh;
-  font-family: "Helvetica Neue", "Helvetica", "Arial", sans-serif;
-  font-weight: 600;
+  color: black;
+  font-family: "Teko", sans-serif;
+  font-size: 3.5vh;
+  letter-spacing: 2px;
+  transition: text-shadow 1s ease-in-out;
+  /* animation: glow 2s ease-in-out infinite alternate; */
 }
 
-@keyframes in {
+.title-text:hover {
+  text-shadow: 0 0 3px rgb(60, 127, 214); /*, 0 0 1px #babac0; */
+}
+
+.slide {
+  position: relative !important;
+  margin: 0;
+  padding: 0;
+}
+
+#slide1 {
+  position: relative;
+  top: calc(30%) !important;
+  left: calc(15%) !important;
+  z-index: 180;
+}
+
+@keyframes glow {
   from {
-    opacity: 0;
+    text-shadow: 0 0 1px transparent;
   }
   to {
-    opacity: 1;
+    text-shadow: 0 0 2px white, 0 0 1px #86868b;
   }
 }

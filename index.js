@@ -8,6 +8,9 @@ AOS.init({});
     relativeInput: true,
     hoverOnly: false,
     pointerEvents: true,
+    precision: 0.01,
+    originX: 0.5,
+    originY: 0.0,
   });
   //   if ($(window).width() > 640) { //set up breaking point
 
