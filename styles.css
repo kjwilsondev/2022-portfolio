@@ -7,29 +7,38 @@ body {
   height: 100vh;
 }
 
-#scene {
-  /* position: relative;
-  top: calc(50% - 15vh) !important;
-  left: calc(50% - 15vw) !important;
-  max-width: 30vw;
+.title-header {
+  max-width: 10vw;
+
+  position: relative !important;
+  top: calc(40% - 5vh) !important;
+  left: calc(50% - 5vw) !important;
   transform: translate(-50%, -50%);
   margin: 0;
   padding: 0;
-  z-index: 200; */
+  z-index: 190;
+
+  color: white;
+  font-family: Verdana, Geneva, Tahoma, sans-serif;
 }
 
-.title-image {
+.title {
+  max-width: 30vw;
+
   position: relative !important;
   top: calc(50% - 15vh) !important;
   left: calc(50% - 15vw) !important;
-  max-width: 30vw;
   transform: translate(-50%, -50%);
   margin: 0;
   padding: 0;
   z-index: 200;
 }
 
-.title {
+.title-image {
+  max-width: 30vw;
+}
+
+.title-footer {
   max-width: 30vw;
 }
 

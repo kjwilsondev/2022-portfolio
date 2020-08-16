@@ -5,8 +5,8 @@ AOS.init({});
   //   fadeIn(title);
   var scene = document.getElementById("scene");
   var parallaxInstance = new Parallax(scene, {
-    relativeInput: false,
-    hoverOnly: false,
+    relativeInput: true,
+    hoverOnly: true,
     pointerEvents: true,
   });
   //   if ($(window).width() > 640) { //set up breaking point
