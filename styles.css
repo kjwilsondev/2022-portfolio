@@ -8,22 +8,21 @@ body {
 }
 
 .title-header {
-  max-width: 10vw;
+  max-width: 20vw;
 
   position: relative !important;
-  top: calc(40% - 5vh) !important;
-  left: calc(50% - 5vw) !important;
+  top: calc(42.5% - 10vh) !important;
+  left: calc(50% - 8.5vw) !important;
   transform: translate(-50%, -50%);
   margin: 0;
   padding: 0;
   z-index: 190;
 
-  color: white;
-  font-family: Verdana, Geneva, Tahoma, sans-serif;
+  text-align: center;
 }
 
 .title {
-  max-width: 30vw;
+  max-width: 35vw;
 
   position: relative !important;
   top: calc(50% - 15vh) !important;
@@ -35,11 +34,28 @@ body {
 }
 
 .title-image {
-  max-width: 30vw;
+  max-width: 35vw;
 }
 
 .title-footer {
-  max-width: 30vw;
+  max-width: 20vw;
+
+  position: relative !important;
+  top: calc(45.5% - 7.5vh) !important;
+  left: calc(50% - 8.5vw) !important;
+  transform: translate(-50%, -50%);
+  margin: 0;
+  padding: 0;
+  z-index: 190;
+
+  text-align: center;
+}
+
+.title-text {
+  color: #86868b;
+  font-size: 2.25vh;
+  font-family: "Helvetica Neue", "Helvetica", "Arial", sans-serif;
+  font-weight: 600;
 }
 
 @keyframes in {
