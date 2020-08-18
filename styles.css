@@ -1,17 +1,22 @@
-.scene {
-  background-color: black;
+body {
+}
+
+#scene {
+  background: black;
+  height: 100vh;
+
+  box-shadow: inset 0 0 200px black;
+
   margin: auto;
   padding: 0;
-  width: 100vw;
-  height: 100vh;
 }
 
 .title-header {
-  max-width: 20vw;
+  min-width: 25vw;
 
-  position: relative !important;
-  top: calc(42.5% - 10vh) !important;
-  left: calc(50% - 8.5vw) !important;
+  position: absolute !important;
+  top: calc(30%) !important;
+  left: calc(50% - 12.5vw) !important;
   transform: translate(-50%, -50%);
   margin: 0;
   padding: 0;
@@ -23,59 +28,117 @@
 .title {
   max-width: 35vw;
 
-  position: relative !important;
-  top: calc(50% - 15vh) !important;
-  left: calc(50% - 15vw) !important;
+  position: absolute !important;
+  top: calc(50% - 7.5vh) !important;
+  left: calc(50% - 17.5vw) !important;
   transform: translate(-50%, -50%);
   margin: 0;
   padding: 0;
   z-index: 200;
-
-  filter: brightness(-100%);
 }
 
 .title-image {
   max-width: 35vw;
 }
 
-.title-footer {
-  max-width: 30vw;
+.raise {
+  width: 130px;
+  height: 35px;
 
-  position: relative !important;
-  top: calc(45.5% - 15vh) !important;
-  left: calc(50% - 12.5vw) !important;
+  position: absolute !important;
+  top: calc(70% - 17.5px) !important;
+  left: calc(50% - 65px) !important;
   transform: translate(-50%, -50%);
-  margin: 0;
-  padding: 0;
-  z-index: 190;
 
-  text-align: center;
+  border: 2.25px solid white;
+  border-radius: 2px;
+
+  background-color: black;
+  color: white;
+  font-weight: bold;
+
+  cursor: pointer;
 }
+
+.raise:hover {
+  color: black;
+  background-color: white;
+  font-weight: bold;
+  letter-spacing: 1px;
+  /* #D2D0B5 */
+}
+
+/* .raise:hover {
+  box-shadow: 0 0.5px 0.5px -0.4px var(--hover);
+  transform: translateY(-0.25px);
+} */
 
 .title-text {
   color: black;
   font-family: "Teko", sans-serif;
   font-size: 3.5vh;
   letter-spacing: 2px;
-  transition: text-shadow 1s ease-in-out;
+  text-shadow: 0 0 20px white;
+  transition: text-shadow 2s ease-in;
   /* animation: glow 2s ease-in-out infinite alternate; */
 }
 
-.title-text:hover {
-  text-shadow: 0 0 3px rgb(60, 127, 214); /*, 0 0 1px #babac0; */
-}
-
 .slide {
-  position: relative !important;
+  position: absolute !important;
   margin: 0;
   padding: 0;
+
+  filter: grayscale(100%);
 }
 
-#slide1 {
-  position: relative;
+#bike {
   top: calc(30%) !important;
-  left: calc(15%) !important;
-  z-index: 180;
+  left: calc(5%) !important;
+  z-index: 10;
+}
+
+#handsinface {
+  filter: grayscale(100%) brightness(110%);
+  top: calc(-2.5%) !important;
+  left: calc(32.5%) !important;
+  z-index: 1;
+}
+
+#green {
+  filter: grayscale(100%) brightness(70%);
+  top: calc(80%) !important;
+  left: calc(30%) !important;
+  z-index: 10;
+}
+
+#weed {
+  /* top: calc(0%) !important;
+  left: calc(75%) !important; */
+  filter: grayscale(100%) brightness(50%);
+  top: calc(80.5%) !important;
+  left: calc(12.5%) !important;
+  z-index: 1;
+}
+
+#nugget {
+  filter: grayscale(100%) brightness(70%);
+  top: calc(37.5%) !important;
+  left: calc(73%) !important;
+  z-index: 1;
+}
+
+#solara {
+  filter: grayscale(100%) brightness(70%);
+  top: calc(-15%) !important;
+  left: calc(55.5%) !important;
+  z-index: 1;
+}
+
+#concert {
+  filter: grayscale(100%) brightness(50%);
+  top: calc(80%) !important;
+  left: calc(62.5%) !important;
+  z-index: 10;
 }
 
 @keyframes glow {
@@ -83,6 +146,6 @@
     text-shadow: 0 0 1px transparent;
   }
   to {
-    text-shadow: 0 0 2px white, 0 0 1px #86868b;
+    text-shadow: 0 0 5px white;
   }
 }
