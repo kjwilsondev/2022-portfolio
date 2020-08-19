@@ -2,20 +2,26 @@
 <html lang="en">
   <head>
     <link rel="stylesheet" href="./styles.css" />
-    <!-- Font Awesome -->
+    <!-- Fonts -->
     <script
       src="https://kit.fontawesome.com/938f0786af.js"
       crossorigin="anonymous"
     ></script>
-    <!-- Teko Font -->
     <link
       href="https://fonts.googleapis.com/css?family=Teko:700&display=swap"
       rel="stylesheet"
     />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Khula:wght@700&display=swap"
+      rel="stylesheet"
+    />
     <!-- AOS Library -->
-    <!-- data-aos="fade-up" -->
     <link href="https://unpkg.com/aos@2.3.1/dist/aos.css" rel="stylesheet" />
     <script src="https://unpkg.com/aos@2.3.1/dist/aos.js"></script>
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/animate.css/4.0.0/animate.min.css"
+    />
     <!-- Parallax Library -->
     <script src="https://cdnjs.cloudflare.com/ajax/libs/parallax/3.1.0/parallax.min.js"></script>
     <meta charset="utf-8" />
@@ -91,7 +97,7 @@
           </li>
         </ul>
       </div>
-      <div class="slide" id="bike" data-depth="2">
+      <div class="slide" id="bike" data-depth="1.9">
         <img
           src="https://iamsu-iwds.s3-us-west-1.amazonaws.com/bike.jpeg"
           style="max-width: 20vw;"
@@ -119,7 +125,7 @@
           alt="weed"
         />
       </div>
-      <div class="slide" id="nugget" data-depth="2">
+      <div class="slide" id="nugget" data-depth="1.8">
         <img
           src="https://iamsu-iwds.s3-us-west-1.amazonaws.com/chickennugget.jpeg"
           style="max-width: 20vw;"
@@ -145,32 +151,86 @@
       <i class="fas fa-chevron-down"></i>
     </div>
     <div class="new-single">
-      <ul>
-        <li>
-          <div>
-            <ul class="title-cover">
-              <li>IAMSU UNDERSTAND ME</li>
-              <li>
-                <img
-                  src="https://iamsu-iwds.s3-us-west-1.amazonaws.com/understandme.jpg"
-                  style="max-width: 35vw;"
-                  alt="understandme"
-                />
+      <div>
+        <ul class="new-title-cover">
+          <li class="new-title">
+            <ul class="new-title-text">
+              <li
+                class="new-title-text-stream"
+                data-aos="fade-up"
+                data-aos-duration="1500"
+              >
+                UNDERSTAND ME
               </li>
+              <ul class="new-title-text-icons">
+                <li>
+                  <i
+                    class="fas fa-music icon-icon2"
+                    style="color: #494949; font-size: 25px;"
+                    data-aos="fade-up"
+                    data-aos-duration="1500"
+                    data-aos-delay="50"
+                  ></i>
+                </li>
+                <li>
+                  <i
+                    class="fab fa-spotify icon-icon2"
+                    style="color: #494949; font-size: 25px;"
+                    data-aos="fade-up"
+                    data-aos-duration="1500"
+                    data-aos-delay="150"
+                  ></i>
+                </li>
+                <li>
+                  <i
+                    class="fab fa-soundcloud icon-icon2"
+                    style="color: #494949; font-size: 25px;"
+                    data-aos="fade-up"
+                    data-aos-duration="1500"
+                    data-aos-delay="250"
+                  ></i>
+                </li>
+                <li>
+                  <i
+                    class="fab fa-youtube icon-icon2"
+                    style="color: #494949; font-size: 25px;"
+                    data-aos="fade-up"
+                    data-aos-duration="1500"
+                    data-aos-delay="350"
+                  ></i>
+                </li>
+              </ul>
             </ul>
-          </div>
-        </li>
-        <li>
-          <iframe
-            width="560"
-            height="315"
-            src="https://www.youtube.com/embed/xiysa0Pcl8M"
-            frameborder="0"
-            allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture"
-            allowfullscreen
-          ></iframe>
-        </li>
-      </ul>
+          </li>
+          <li class="new-cover">
+            <img
+              class="new-cover-img"
+              data-aos="fade-up"
+              data-aos-duration="1500"
+              src="https://iamsu-iwds.s3-us-west-1.amazonaws.com/understandme.jpg"
+              style="max-width: 35vw;"
+              alt="understandme"
+            />
+          </li>
+        </ul>
+        <div class="copyright">
+          <ul data-aos="fade-up" data-aos-duration="1500">
+            <li>
+              <img
+                class="title-image-credits"
+                src="https://iamsu-iwds.s3-us-west-1.amazonaws.com/iamsu-white.png"
+                style="height: 30px !important;"
+              />
+            </li>
+            <li>
+              © 2020 EYES ON ME. ALL RIGHTS RESERVED.
+            </li>
+          </ul>
+        </div>
+      </div>
+      <div class="credits">
+        <div></div>
+      </div>
     </div>
   </body>
   <script src="./index.js"></script>

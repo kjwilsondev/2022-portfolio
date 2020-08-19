@@ -51,6 +51,12 @@ li {
   cursor: pointer;
 }
 
+.icon-icon2:hover {
+  color: #2a2a2a !important;
+  text-shadow: 0 0 1px grey;
+  cursor: pointer;
+}
+
 #scene {
   background-color: black;
   height: 100vh;
@@ -100,6 +106,11 @@ li {
 
 .title-image {
   max-width: 35vw;
+}
+
+.title-image-credits {
+  max-width: 35vw;
+  filter: brightness(10%);
 }
 
 .stream-bar {
@@ -197,31 +208,104 @@ li {
 }
 
 .new-single {
-  background-color: #141414;
+  /* background-color: #141414; */
+  background-color: #f7f7f7;
   color: white;
   font-size: 20px;
 
   position: absolute !important;
   top: 100%;
   width: 100vw;
-  height: 100vh;
   z-index: 12;
   box-sizing: border-box;
 
   display: flex;
   flex-direction: column;
-  padding: 10px;
+  flex-wrap: wrap;
+  padding: 10vh 0 0 0;
 }
 
-.title-cover {
+.new-title-cover {
+  width: 100vw;
   display: flex;
-  flex-direction: row !important;
+  flex-direction: row;
+  align-content: center;
+  justify-content: space-around;
   flex-wrap: wrap;
-  padding: 10px;
+  box-sizing: border-box;
+}
+
+.new-title {
+  width: 40vw;
+  min-width: 370px;
+
+  color: black;
+  font-family: "Khula", Helvetica, sans-serif;
+  font-weight: bolder;
+  font-size: 7vh;
+  text-align: center;
+
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-content: center;
+  overflow: hidden;
+}
+
+.new-title-text-stream {
+  max-height: 52px;
+  z-index: 15;
+  padding-bottom: 10vh;
+}
+
+.new-title-text-outnow {
+  color: #f7f7f7;
+  font-size: 3.5vh;
+  max-height: 52px;
+  overflow: hidden !important;
+  z-index: 16;
+}
+
+.new-title-text-icons {
+  width: 20vw;
+  min-width: 200px;
+
+  display: flex;
+  flex-direction: row;
+  justify-content: space-evenly;
+  margin: auto;
+}
+
+.new-cover {
+  width: 40vw;
+  min-width: 370px;
+  padding: 0 20px;
+}
+
+.new-cover-img {
+  max-width: 444px;
+  min-width: 360px;
+  padding: 0 20px;
 }
 
 .copyright {
-  background-image: url("https://iamsu-iwds.s3-us-west-1.amazonaws.com/formlayer.png");
+  color: black;
+  font-family: "Khula", Helvetica, sans-serif;
+  font-size: 14px;
+
+  text-align: center;
+  z-index: 14;
+
+  padding: 5vh 0;
+}
+
+.credits {
+  background-image: url("https://iamsu-iwds.s3-us-west-1.amazonaws.com/formlayer.png") !important;
+  color: white;
+  font-size: 20px;
+  width: 100vw;
+  height: 10vh;
+  z-index: 14;
 }
 
 @keyframes glow {
