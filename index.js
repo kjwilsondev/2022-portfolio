@@ -5,7 +5,7 @@ AOS.init({});
   //   fadeIn(title);
   var scene = document.getElementById("scene");
   var parallaxInstance = new Parallax(scene, {
-    relativeInput: true,
+    relativeInput: false,
     hoverOnly: false,
     pointerEvents: true,
     precision: 0.01,

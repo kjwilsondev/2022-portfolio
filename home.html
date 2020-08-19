@@ -2,6 +2,11 @@
 <html lang="en">
   <head>
     <link rel="stylesheet" href="./styles.css" />
+    <!-- Font Awesome -->
+    <script
+      src="https://kit.fontawesome.com/938f0786af.js"
+      crossorigin="anonymous"
+    ></script>
     <!-- Teko Font -->
     <link
       href="https://fonts.googleapis.com/css?family=Teko:700&display=swap"
@@ -10,13 +15,37 @@
     <!-- AOS Library -->
     <!-- data-aos="fade-up" -->
     <link href="https://unpkg.com/aos@2.3.1/dist/aos.css" rel="stylesheet" />
+    <script src="https://unpkg.com/aos@2.3.1/dist/aos.js"></script>
     <!-- Parallax Library -->
-    <!-- data-depth="" -->
     <script src="https://cdnjs.cloudflare.com/ajax/libs/parallax/3.1.0/parallax.min.js"></script>
     <meta charset="utf-8" />
   </head>
-  <script src="https://unpkg.com/aos@2.3.1/dist/aos.js"></script>
   <body>
+    <div class="nav">
+      <ul class="nav-split">
+        <li class="icon">
+          <img
+            class="title-image"
+            src="https://iamsu-iwds.s3-us-west-1.amazonaws.com/iamsu-white.png"
+            style="height: 30px !important;"
+          />
+        </li>
+        <ul class="nav-split2">
+          <li class="icon">
+            <i
+              class="fas fa-shopping-cart icon-icon"
+              style="color: grey; font-size: 25px;"
+            ></i>
+          </li>
+          <li class="icon">
+            <i
+              class="fas fa-mobile icon-icon"
+              style="color: grey; font-size: 25px;"
+            ></i>
+          </li>
+        </ul>
+      </ul>
+    </div>
     <div id="scene">
       <div class="title-header" data-depth="2.2">
         <p class="title-text">
@@ -85,9 +114,10 @@
         />
       </div>
     </div>
-    <div class="phone-form">
-      <center><a>\/</a></center>
+    <div class="arrow-down">
+      <a>⇓</a>
     </div>
+    <div class="phone-form"></div>
   </body>
   <script src="./index.js"></script>
 </html>
