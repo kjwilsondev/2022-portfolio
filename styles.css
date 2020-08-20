@@ -45,6 +45,14 @@ li {
   color: grey;
 }
 
+.icon-icon {
+  font-size: 25px;
+}
+
+.icon-icon2 {
+  font-size: 25px;
+}
+
 .icon-icon:hover {
   color: white !important;
   text-shadow: 0 0 2px white;
@@ -239,7 +247,7 @@ li {
   width: 40vw;
   min-width: 370px;
 
-  color: black;
+  color: #494949;
   font-family: "Khula", Helvetica, sans-serif;
   font-weight: bolder;
   font-size: 7vh;
@@ -255,7 +263,7 @@ li {
 .new-title-text-stream {
   max-height: 52px;
   z-index: 15;
-  padding-bottom: 10vh;
+  margin-bottom: 10vh;
 }
 
 .new-title-text-outnow {
@@ -267,7 +275,7 @@ li {
 }
 
 .new-title-text-icons {
-  width: 20vw;
+  width: 24vw;
   min-width: 200px;
 
   display: flex;
@@ -289,7 +297,7 @@ li {
 }
 
 .copyright {
-  color: black;
+  color: #494949;
   font-family: "Khula", Helvetica, sans-serif;
   font-size: 14px;
 
