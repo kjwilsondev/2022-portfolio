@@ -29,40 +29,38 @@
   }
 
   #handsinface {
-    filter: grayscale(100%) brightness(110%);
     top: calc(2.5%) !important;
     left: calc(32.5%) !important;
     z-index: 1;
+    filter: grayscale(100%) brightness(110%);
   }
 
   #green {
-    filter: grayscale(100%) brightness(70%);
     top: calc(75%) !important;
     left: calc(30%) !important;
     z-index: 10;
+    filter: grayscale(100%) brightness(70%);
   }
 
   #weed {
-    /* top: calc(0%) !important;
-        left: calc(75%) !important; */
-    filter: grayscale(100%) brightness(50%);
     top: calc(75%) !important;
     left: calc(12.5%) !important;
     z-index: 1;
+    filter: grayscale(100%) brightness(50%);
   }
 
   #solara {
-    filter: grayscale(100%) brightness(70%);
     top: calc(-5%) !important;
     left: calc(55.5%) !important;
     z-index: 1;
+    filter: grayscale(100%) brightness(70%);
   }
 
   #concert {
-    filter: grayscale(100%) brightness(50%);
     top: calc(75%) !important;
     left: calc(62.5%) !important;
     z-index: 10;
+    filter: grayscale(100%) brightness(50%);
   }
 }
 
@@ -81,40 +79,45 @@
   }
 
   #handsinface {
-    filter: grayscale(100%) brightness(110%);
     top: calc(7.5%) !important;
     left: calc(32.5%) !important;
     z-index: 1;
+    filter: grayscale(100%) brightness(110%);
   }
 
   #green {
-    filter: grayscale(100%) brightness(70%);
     top: calc(72.5%) !important;
     left: calc(30%) !important;
     z-index: 10;
+    filter: grayscale(100%) brightness(70%);
   }
 
   #weed {
-    /* top: calc(0%) !important;
-            left: calc(75%) !important; */
-    filter: grayscale(100%) brightness(50%);
     top: calc(70%) !important;
     left: calc(12.5%) !important;
     z-index: 1;
+    filter: grayscale(100%) brightness(50%);
+  }
+
+  #nugget {
+    top: calc(37.5%) !important;
+    left: calc(75%) !important;
+    z-index: 1;
+    filter: grayscale(100%) brightness(70%);
   }
 
   #solara {
-    filter: grayscale(100%) brightness(70%);
     top: calc(2.5%) !important;
     left: calc(55.5%) !important;
     z-index: 1;
+    filter: grayscale(100%) brightness(70%);
   }
 
   #concert {
-    filter: grayscale(100%) brightness(50%);
     top: calc(70%) !important;
     left: calc(62.5%) !important;
     z-index: 10;
+    filter: grayscale(100%) brightness(50%);
   }
 
   .new-title-text-stream {
@@ -147,11 +150,11 @@
   }
 
   .title {
-    max-width: 45vw;
+    max-width: 60vw;
 
     position: absolute !important;
     top: calc(50% - 7.5vh) !important;
-    left: calc(50% - 22.5vw) !important;
+    left: calc(50% - 30vw) !important;
     transform: translate(-50%, -50%);
     margin: 0;
     padding: 0;
@@ -159,18 +162,161 @@
   }
 
   .title-image {
-    max-width: 45vw;
-  }
-
-  .title-image-credits {
-    max-width: 35vw;
-    filter: brightness(10%);
+    max-width: 60vw;
   }
 
   .stream-bar {
     width: 25vw;
     position: absolute !important;
-    top: calc(60%) !important;
+    top: calc(62.5%) !important;
     left: calc(50% - 12.5vw) !important;
+    z-index: 10;
+  }
+
+  #bike {
+    top: calc(25%) !important;
+    left: calc(-7.5%) !important;
+    z-index: 10;
+  }
+
+  #bike {
+    max-width: 30vw;
+  }
+
+  #handsinface {
+    top: calc(10%) !important;
+    left: calc(20%) !important;
+    z-index: 1;
+    filter: grayscale(100%) brightness(110%);
+  }
+
+  #handsinface-pic {
+    max-width: 20vw;
+  }
+
+  #green {
+    top: calc(72.5%) !important;
+    left: calc(25%) !important;
+    z-index: 10;
+    filter: grayscale(100%) brightness(70%);
+  }
+
+  #green-pic {
+    max-width: 30vw;
+  }
+
+  #weed {
+    top: calc(65%) !important;
+    left: calc(7.5%) !important;
+    z-index: 1;
+    filter: grayscale(100%) brightness(50%);
+  }
+
+  #nugget {
+    top: calc(37.5%) !important;
+    left: calc(87.5%) !important;
+    z-index: 1;
+    filter: grayscale(100%) brightness(70%);
+  }
+
+  #solara {
+    top: calc(7.5%) !important;
+    left: calc(65.5%) !important;
+    z-index: 1;
+    filter: grayscale(100%) brightness(70%);
+  }
+
+  #solara-pic {
+    max-width: 25vw;
+  }
+
+  #concert {
+    top: calc(70%) !important;
+    left: calc(67.5%) !important;
+    z-index: 1;
+    filter: grayscale(100%) brightness(50%);
+  }
+
+  #concert-pic {
+    max-width: 25vw;
+  }
+}
+
+@media only screen and (max-width: 529px) {
+  .stream-bar {
+    width: 33vw;
+    position: absolute !important;
+    top: calc(60.5%) !important;
+    left: calc(50% - 16.5vw) !important;
+    z-index: 10;
+  }
+
+  #bike {
+    top: calc(30%) !important;
+    left: calc(-15%) !important;
+    z-index: 10;
+  }
+
+  #bike-pic {
+    min-width: 27vw;
+  }
+
+  #handsinface {
+    top: calc(5.5%) !important;
+    left: calc(7.5%) !important;
+    z-index: 1;
+    filter: grayscale(100%) brightness(110%);
+  }
+
+  #handsinface-pic {
+    max-width: 30vw;
+  }
+
+  #green {
+    top: calc(70%) !important;
+    left: calc(25%) !important;
+    z-index: 10;
+    filter: grayscale(100%) brightness(70%);
+  }
+
+  #green-pic {
+    max-width: 32.5vw;
+  }
+
+  #weed {
+    top: calc(65%) !important;
+    left: calc(0%) !important;
+    z-index: 1;
+    filter: grayscale(100%) brightness(50%);
+  }
+
+  #weed-pic {
+    max-width: 20vw;
+  }
+
+  #nugget-pic {
+    min-width: 25vw;
+  }
+
+  #solara {
+    top: calc(10%) !important;
+    left: calc(65.5%) !important;
+    z-index: 1;
+    filter: grayscale(100%) brightness(70%);
+  }
+
+  #solara-pic {
+    max-width: 25vw;
+  }
+
+  #concert {
+    top: calc(70%) !important;
+    left: calc(67.5%) !important;
+    z-index: 1;
+    filter: grayscale(100%) brightness(50%);
+  }
+
+  #concert-pic {
+    min-width: 33vw;
   }
 }

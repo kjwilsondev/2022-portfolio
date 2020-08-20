@@ -152,48 +152,74 @@ li {
   z-index: 10;
 }
 
+#bike-pic {
+  max-width: 20vw;
+}
+
 #handsinface {
-  filter: grayscale(100%) brightness(110%);
   top: calc(-2.5%) !important;
   left: calc(32.5%) !important;
   z-index: 1;
+  filter: grayscale(100%) brightness(110%);
+}
+
+#handsinface-pic {
+  max-width: 15vw;
 }
 
 #green {
-  filter: grayscale(100%) brightness(70%);
   top: calc(80%) !important;
   left: calc(30%) !important;
   z-index: 10;
+  filter: grayscale(100%) brightness(70%);
+}
+
+#green-pic {
+  max-width: 25vw;
 }
 
 #weed {
-  /* top: calc(0%) !important;
-  left: calc(75%) !important; */
-  filter: grayscale(100%) brightness(50%);
   top: calc(80.5%) !important;
   left: calc(12.5%) !important;
   z-index: 1;
+  filter: grayscale(100%) brightness(50%);
+}
+
+#weed-pic {
+  max-width: 10vw;
 }
 
 #nugget {
-  filter: grayscale(100%) brightness(70%);
   top: calc(37.5%) !important;
   left: calc(75%) !important;
   z-index: 1;
+  filter: grayscale(100%) brightness(70%);
+}
+
+#nugget-pic {
+  max-width: 20vw;
 }
 
 #solara {
-  filter: grayscale(100%) brightness(70%);
   top: calc(-15%) !important;
   left: calc(55.5%) !important;
   z-index: 1;
+  filter: grayscale(100%) brightness(70%);
+}
+
+#solara-pic {
+  max-width: 22vw;
 }
 
 #concert {
-  filter: grayscale(100%) brightness(50%);
   top: calc(80%) !important;
   left: calc(62.5%) !important;
   z-index: 10;
+  filter: grayscale(100%) brightness(50%);
+}
+
+#concert-pic {
+  max-width: 22vw;
 }
 
 .arrow-down {
