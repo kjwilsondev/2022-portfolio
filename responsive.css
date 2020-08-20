@@ -16,7 +16,7 @@
   .new-title-text-stream {
     max-height: 52px;
     z-index: 15;
-    padding-bottom: 10vh;
+    padding-bottom: 0;
   }
 }
 

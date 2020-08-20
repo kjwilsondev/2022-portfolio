@@ -270,7 +270,7 @@ li {
 }
 
 .new-title {
-  width: 40vw;
+  width: unset;
   min-width: 370px;
 
   color: #494949;
@@ -289,7 +289,7 @@ li {
 .new-title-text-stream {
   max-height: 52px;
   z-index: 15;
-  margin-bottom: 10vh;
+  margin-bottom: 4vh;
 }
 
 .new-title-text-outnow {
@@ -319,7 +319,6 @@ li {
 .new-cover-img {
   max-width: 444px;
   min-width: 360px;
-  padding: 0 20px;
 }
 
 .copyright {
