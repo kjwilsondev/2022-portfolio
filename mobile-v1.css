@@ -1,0 +1,131 @@
+@media only screen and (min-device-width: 375px) and (max-device-width: 667px) and (-webkit-min-device-pixel-ratio: 2) {
+  .title {
+    max-width: 80vw;
+
+    position: absolute !important;
+    top: calc(50% - 7.5vh) !important;
+    left: calc(50% - 40vw) !important;
+    transform: translate(-50%, -50%);
+    margin: 0;
+    padding: 0;
+    z-index: 200;
+  }
+
+  .title-image {
+    max-width: 80vw;
+  }
+
+  .stream-bar {
+    width: 50vw;
+    position: absolute !important;
+    top: calc(60%) !important;
+    left: calc(50% - 25vw) !important;
+  }
+
+  .icon-icon {
+    font-size: 45px;
+  }
+
+  .icon-icon .cart {
+    font-size: 30px;
+  }
+
+  #bike {
+    visibility: hidden;
+  }
+
+  #bike-pic {
+    max-width: 35vw;
+  }
+
+  #handsinface {
+    top: calc(7.5%) !important;
+    left: calc(5%) !important;
+    z-index: 1;
+    filter: grayscale(100%) brightness(110%);
+  }
+
+  #handsinface-pic {
+    max-width: 40vw;
+  }
+
+  #solara {
+    top: calc(5%) !important;
+    left: calc(55.5%) !important;
+    z-index: 1;
+    filter: grayscale(100%) brightness(70%);
+  }
+
+  #solara-pic {
+    max-width: 45vw;
+  }
+
+  #nugget {
+    top: calc(70%) !important;
+    left: calc(62.5%) !important;
+    z-index: 10;
+    filter: grayscale(100%) brightness(70%);
+  }
+
+  #nugget-pic {
+    max-width: 33vw;
+  }
+
+  #green {
+    top: calc(72.5%) !important;
+    left: calc(30%) !important;
+    z-index: 10;
+    filter: grayscale(100%) brightness(70%);
+  }
+
+  #weed {
+    top: calc(70%) !important;
+    left: calc(12.5%) !important;
+    z-index: 1;
+    filter: grayscale(100%) brightness(50%);
+  }
+
+  #concert {
+    visibility: hidden;
+  }
+
+  .new-title-text-stream {
+    font-size: 45px;
+    max-height: 52px;
+    z-index: 15;
+    padding-bottom: 2vh;
+    margin: 0;
+  }
+
+  .new-title-text-icons {
+    width: 24vw;
+    min-width: 300px;
+
+    display: flex;
+    flex-direction: row;
+    justify-content: space-evenly;
+    margin: auto;
+  }
+
+  .new-title-text-stream {
+    height: unset;
+    font-size: 86px !important;
+    margin-bottom: 0 !important;
+  }
+
+  .new-single {
+    /* background-color: #141414; */
+    background-color: #f7f7f7;
+    color: white;
+    font-size: 20px;
+    position: absolute !important;
+    top: 100%;
+    width: 100vw;
+    z-index: 12;
+    box-sizing: border-box;
+    display: flex;
+    flex-direction: column;
+    flex-wrap: wrap;
+    padding: 60px 0 0 0;
+  }
+}

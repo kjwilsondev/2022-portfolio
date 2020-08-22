@@ -45,6 +45,10 @@ li {
   color: grey;
 }
 
+.main {
+  height: 30px;
+}
+
 .icon-icon {
   font-size: 25px;
 }
@@ -117,6 +121,7 @@ li {
 }
 
 .title-image-credits {
+  height: 30px;
   max-width: 35vw;
   filter: brightness(10%);
 }
@@ -192,7 +197,7 @@ li {
 #nugget {
   top: calc(37.5%) !important;
   left: calc(75%) !important;
-  z-index: 1;
+  z-index: 2;
   filter: grayscale(100%) brightness(70%);
 }
 
@@ -301,7 +306,7 @@ li {
 }
 
 .new-title-text-icons {
-  width: 24vw;
+  width: 44vw;
   min-width: 200px;
 
   display: flex;
@@ -314,6 +319,7 @@ li {
   width: 40vw;
   min-width: 370px;
   padding: 0 20px;
+  text-align: center;
 }
 
 .new-cover-img {
@@ -335,10 +341,19 @@ li {
 .credits {
   background-image: url("https://iamsu-iwds.s3-us-west-1.amazonaws.com/formlayer.png") !important;
   color: white;
-  font-size: 20px;
+  font-size: 2vh;
+  font-family: "Khula", Helvetica, sans-serif;
+  text-align: right;
   width: 100vw;
-  height: 10vh;
+  height: 5vh;
+  margin: auto;
   z-index: 14;
+}
+
+.credits-text {
+  padding-top: 1.5vh;
+  padding-right: 2vh;
+  opacity: 0.5;
 }
 
 @keyframes glow {

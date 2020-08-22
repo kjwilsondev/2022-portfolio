@@ -1,0 +1,129 @@
+/* iphonex */
+@media only screen and (min-device-width: 375px) and (max-device-width: 812px) and (-webkit-min-device-pixel-ratio: 3) and (orientation: portrait) {
+  .title {
+    max-width: 80vw;
+
+    position: absolute !important;
+    top: calc(50% - 7.5vh) !important;
+    left: calc(50% - 40vw) !important;
+    transform: translate(-50%, -50%);
+    margin: 0;
+    padding: 0;
+    z-index: 200;
+  }
+
+  .title-image {
+    max-width: 80vw;
+  }
+
+  .stream-bar {
+    width: 50vw;
+    position: absolute !important;
+    top: calc(60%) !important;
+    left: calc(50% - 25vw) !important;
+  }
+
+  .icon-icon {
+    font-size: 45px;
+  }
+
+  .icon-icon .cart {
+    font-size: 30px;
+  }
+
+  #bike {
+    visibility: hidden;
+  }
+
+  #bike-pic {
+    max-width: 35vw;
+  }
+
+  #handsinface {
+    top: calc(7.5%) !important;
+    left: calc(5%) !important;
+    z-index: 1;
+    filter: grayscale(100%) brightness(110%);
+  }
+
+  #handsinface-pic {
+    max-width: 40vw;
+  }
+
+  #solara {
+    top: calc(5%) !important;
+    left: calc(55.5%) !important;
+    z-index: 1;
+    filter: grayscale(100%) brightness(70%);
+  }
+
+  #solara-pic {
+    max-width: 45vw;
+  }
+
+  #nugget {
+    top: calc(70%) !important;
+    left: calc(62.5%) !important;
+    z-index: 10;
+    filter: grayscale(100%) brightness(70%);
+  }
+
+  #nugget-pic {
+    max-width: 36vw;
+  }
+
+  #green {
+    top: calc(72.5%) !important;
+    left: calc(30%) !important;
+    z-index: 10;
+    filter: grayscale(100%) brightness(70%);
+  }
+
+  #weed {
+    top: calc(70%) !important;
+    left: calc(12.5%) !important;
+    z-index: 1;
+    filter: grayscale(100%) brightness(50%);
+  }
+
+  #concert {
+    visibility: hidden;
+  }
+
+  .new-title-text-stream {
+    font-size: 120px;
+  }
+
+  .new-title-text-icons {
+    width: 50vw;
+    min-width: 300px;
+
+    display: flex;
+    flex-direction: row;
+    justify-content: space-evenly;
+    margin: auto;
+  }
+
+  .icon-icon2 {
+    font-size: 40px;
+  }
+
+  .new-cover {
+    width: 700px;
+    padding: 0px;
+  }
+
+  .new-cover-img {
+    /* max-width: 444px; */
+    min-width: 700px;
+  }
+
+  .copyright {
+    font-size: 30px;
+  }
+
+  .title-image-credits {
+    height: 60px;
+    filter: brightness(10%);
+  }
+}

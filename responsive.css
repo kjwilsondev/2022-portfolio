@@ -149,6 +149,31 @@
     font-size: 20px !important;
   }
 
+  .title-header {
+    min-width: 25vw;
+
+    position: absolute !important;
+    top: calc(30%) !important;
+    left: calc(50% - 12.5vw) !important;
+    transform: translate(-50%, -50%);
+    margin: 0;
+    padding: 0;
+    z-index: 190;
+
+    text-align: center;
+  }
+
+  .title-text {
+    color: black;
+    font-family: "Teko", sans-serif;
+    font-size: 3.5vh;
+    letter-spacing: 2px;
+    text-shadow: 0 0 20px white;
+    transition: text-shadow 2s ease-in;
+    z-index: 190;
+    /* animation: glow 2s ease-in-out infinite alternate; */
+  }
+
   .title {
     max-width: 60vw;
 
