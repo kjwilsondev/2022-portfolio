@@ -1,5 +1,5 @@
 body {
-  background-color: black;
+  background-color: white;
   margin: 0;
   padding: 0;
   font-family: "Arial", "Helvetica Neue", "Helvetica", "sans-serif";
@@ -70,7 +70,7 @@ li {
 }
 
 #scene {
-  background-color: black;
+  background-color: #090808;
   height: 100vh;
 
   box-shadow: inset 0 0 200px black;
@@ -83,7 +83,7 @@ li {
   min-width: 25vw;
 
   position: absolute !important;
-  top: calc(30%) !important;
+  top: calc(27%) !important;
   left: calc(50% - 12.5vw) !important;
   transform: translate(-50%, -50%);
   margin: 0;
@@ -94,11 +94,11 @@ li {
 }
 
 .title-text {
-  color: black;
-  font-family: "Teko", sans-serif;
+  color: white;
+  font-family: "Khula", sans-serif;
   font-size: 3.5vh;
   letter-spacing: 2px;
-  text-shadow: 0 0 20px white;
+  text-shadow: 0 0 3px white;
   transition: text-shadow 2s ease-in;
   z-index: 190;
   /* animation: glow 2s ease-in-out infinite alternate; */
@@ -108,8 +108,8 @@ li {
   max-width: 35vw;
 
   position: absolute !important;
-  top: calc(50% - 7.5vh) !important;
-  left: calc(50% - 17.5vw) !important;
+  top: calc(40% - 7.5vh) !important;
+  left: calc(50% - 15.5vw) !important;
   transform: translate(-50%, -50%);
   margin: 0;
   padding: 0;
@@ -117,7 +117,7 @@ li {
 }
 
 .title-image {
-  max-width: 35vw;
+  max-width: 30vw;
 }
 
 .title-image-credits {
@@ -127,10 +127,11 @@ li {
 }
 
 .stream-bar {
-  width: 15vw;
+  color: white;
+  width: 25vw;
 
   position: absolute !important;
-  top: calc(70%) !important;
+  top: calc(100%) !important;
   left: calc(50% - 7.5vw) !important;
 }
 
@@ -148,7 +149,7 @@ li {
   margin: 0;
   padding: 0;
 
-  filter: grayscale(100%);
+  /* filter: grayscale(100%); */
 }
 
 #bike {
@@ -165,7 +166,6 @@ li {
   top: calc(-2.5%) !important;
   left: calc(32.5%) !important;
   z-index: 1;
-  filter: grayscale(100%) brightness(110%);
 }
 
 #handsinface-pic {
@@ -174,7 +174,7 @@ li {
 
 #green {
   top: calc(80%) !important;
-  left: calc(30%) !important;
+  left: calc(73%) !important;
   z-index: 10;
   filter: grayscale(100%) brightness(70%);
 }
@@ -184,46 +184,32 @@ li {
 }
 
 #weed {
-  top: calc(80.5%) !important;
-  left: calc(12.5%) !important;
+  top: calc(72.5%) !important;
+  left: calc(8.5%) !important;
   z-index: 1;
-  filter: grayscale(100%) brightness(50%);
 }
 
 #weed-pic {
-  max-width: 10vw;
+  max-width: 18vw;
 }
 
 #nugget {
-  top: calc(37.5%) !important;
+  top: calc(35.5%) !important;
   left: calc(75%) !important;
   z-index: 2;
-  filter: grayscale(100%) brightness(70%);
 }
 
 #nugget-pic {
-  max-width: 20vw;
+  max-width: 16vw;
 }
 
 #solara {
-  top: calc(-15%) !important;
+  top: calc(-5%) !important;
   left: calc(55.5%) !important;
-  z-index: 1;
-  filter: grayscale(100%) brightness(70%);
+  z-index: -1;
 }
 
 #solara-pic {
-  max-width: 22vw;
-}
-
-#concert {
-  top: calc(80%) !important;
-  left: calc(62.5%) !important;
-  z-index: 10;
-  filter: grayscale(100%) brightness(50%);
-}
-
-#concert-pic {
   max-width: 22vw;
 }
 

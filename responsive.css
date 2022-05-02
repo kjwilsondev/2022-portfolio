@@ -9,7 +9,7 @@
   .stream-bar {
     width: 17.5vw;
     position: absolute !important;
-    top: calc(65%) !important;
+    top: calc(55%) !important;
     left: calc(50% - 8.75vw) !important;
   }
 
@@ -37,7 +37,7 @@
 
   #green {
     top: calc(75%) !important;
-    left: calc(30%) !important;
+    left: calc(77%) !important;
     z-index: 10;
     filter: grayscale(100%) brightness(70%);
   }
@@ -54,13 +54,6 @@
     left: calc(55.5%) !important;
     z-index: 1;
     filter: grayscale(100%) brightness(70%);
-  }
-
-  #concert {
-    top: calc(75%) !important;
-    left: calc(62.5%) !important;
-    z-index: 10;
-    filter: grayscale(100%) brightness(50%);
   }
 }
 
@@ -113,13 +106,6 @@
     filter: grayscale(100%) brightness(70%);
   }
 
-  #concert {
-    top: calc(70%) !important;
-    left: calc(62.5%) !important;
-    z-index: 10;
-    filter: grayscale(100%) brightness(50%);
-  }
-
   .new-title-text-stream {
     font-size: 45px;
     max-height: 52px;
@@ -154,7 +140,7 @@
 
     position: absolute !important;
     top: calc(30%) !important;
-    left: calc(50% - 12.5vw) !important;
+    left: calc(50% - 15.5vw) !important;
     transform: translate(-50%, -50%);
     margin: 0;
     padding: 0;
@@ -164,9 +150,9 @@
   }
 
   .title-text {
-    color: black;
-    font-family: "Teko", sans-serif;
-    font-size: 3.5vh;
+    color: white;
+    font-family: "Khula", sans-serif;
+    font-size: 3.75vh;
     letter-spacing: 2px;
     text-shadow: 0 0 20px white;
     transition: text-shadow 2s ease-in;
@@ -221,7 +207,7 @@
 
   #green {
     top: calc(72.5%) !important;
-    left: calc(25%) !important;
+    left: calc(77%) !important;
     z-index: 10;
     filter: grayscale(100%) brightness(70%);
   }
@@ -252,17 +238,6 @@
   }
 
   #solara-pic {
-    max-width: 25vw;
-  }
-
-  #concert {
-    top: calc(70%) !important;
-    left: calc(67.5%) !important;
-    z-index: 1;
-    filter: grayscale(100%) brightness(50%);
-  }
-
-  #concert-pic {
     max-width: 25vw;
   }
 }
@@ -299,7 +274,7 @@
 
   #green {
     top: calc(70%) !important;
-    left: calc(25%) !important;
+    left: calc(77%) !important;
     z-index: 10;
     filter: grayscale(100%) brightness(70%);
   }
@@ -332,16 +307,5 @@
 
   #solara-pic {
     max-width: 25vw;
-  }
-
-  #concert {
-    top: calc(70%) !important;
-    left: calc(67.5%) !important;
-    z-index: 1;
-    filter: grayscale(100%) brightness(50%);
-  }
-
-  #concert-pic {
-    min-width: 33vw;
   }
 }
