@@ -1,3 +1,46 @@
+@media only screen and (max-width: 1516px) {
+  .stream-bar {
+    width: 40vw;
+    top: calc(96%) !important;
+    left: calc(42.5% - 9.5vw) !important;
+  }
+}
+@media only screen and (max-width: 1516px) {
+  .title-header {
+    top: calc(16%) !important;
+    left: calc(50% - 12.5vw) !important;
+  }
+
+  .title {
+    top: calc(30% - 7.5vh) !important;
+    left: calc(50% - 15.5vw) !important;
+  }
+
+  .stream-bar {
+    top: calc(88%) !important;
+    left: calc(42.5% - 9.5vw) !important;
+  }
+}
+
+@media only screen and (max-width: 1414px) {
+  .stream-bar {
+    top: calc(83%) !important;
+    left: calc(40.5% - 9.5vw) !important;
+  }
+}
+
+@media only screen and (max-width: 1414px) {
+  .stream-bar {
+    width: 45vw;
+  }
+}
+
+@media only screen and (max-width: 1200px) {
+  .stream-bar {
+    width: 47vw;
+  }
+}
+
 @media only screen and (max-width: 1053px) {
   #solara {
     filter: grayscale(100%) brightness(70%);

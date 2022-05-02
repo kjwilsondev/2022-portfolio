@@ -83,7 +83,7 @@ li {
   min-width: 25vw;
 
   position: absolute !important;
-  top: calc(27%) !important;
+  top: calc(20%) !important;
   left: calc(50% - 12.5vw) !important;
   transform: translate(-50%, -50%);
   margin: 0;
@@ -108,7 +108,7 @@ li {
   max-width: 35vw;
 
   position: absolute !important;
-  top: calc(40% - 7.5vh) !important;
+  top: calc(32% - 7.5vh) !important;
   left: calc(50% - 15.5vw) !important;
   transform: translate(-50%, -50%);
   margin: 0;
@@ -127,21 +127,17 @@ li {
 }
 
 .stream-bar {
+  width: 33vw;
+  font: "Khula", sans-serif;
   color: white;
-  width: 25vw;
+  font-size: 3.5vh;
+  letter-spacing: 2px;
+  text-shadow: 0 0 3px white;
 
   position: absolute !important;
-  top: calc(100%) !important;
-  left: calc(50% - 7.5vw) !important;
-}
-
-.stream-bar-icons {
-  display: flex;
-  flex-direction: row;
-  justify-content: space-between;
-
-  padding: 0;
-  margin: 0;
+  top: calc(96%) !important;
+  left: calc(42.5% - 7.5vw) !important;
+  z-index: 100;
 }
 
 .slide {
@@ -164,12 +160,13 @@ li {
 
 #handsinface {
   top: calc(-2.5%) !important;
-  left: calc(32.5%) !important;
+  left: calc(29.5%) !important;
   z-index: 1;
 }
 
 #handsinface-pic {
-  max-width: 15vw;
+  max-width: 17vw;
+  filter: brightness(120%);
 }
 
 #green {
