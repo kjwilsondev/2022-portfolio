@@ -64,34 +64,69 @@
 }
 
 @media only screen and (max-width: 1053px) {
+  #handsinface {
+    top: calc(0%) !important;
+    left: calc(18.5%) !important;
+    z-index: 1;
+  }
+
+  #handsinface-pic {
+    max-width: 25vw;
+  }
+
   #solara {
-    top: calc(-10%) !important;
+    top: calc(-4%) !important;
     left: calc(55.5%) !important;
     z-index: 1;
   }
 
   #solara-pic {
-    max-width: 25vw;
+    max-width: 28vw;
   }
 
-  #handsinface {
-    top: calc(2.5%) !important;
-    left: calc(32.5%) !important;
-    z-index: 1;
+  #bike {
+    left: calc(3%) !important;
+  }
+
+  #bike-pic {
+    min-width: 27vw;
+  }
+
+  #nugget {
+    left: calc(72%) !important;
+  }
+
+  #weed {
+    top: calc(63%) !important;
+    left: calc(11%);
+  }
+
+  #weed-pic {
+    max-width: 22vw;
+  }
+
+  #green {
+    top: calc(60%) !important;
+    left: calc(70%) !important;
+  }
+
+  #green-pic {
+    max-width: 26vw;
   }
 
   .stream-bar {
-    width: 17.5vw;
+    font-size: 18px;
+    width: 400px;
     position: absolute !important;
-    top: calc(55%) !important;
-    left: calc(50% - 8.75vw) !important;
+    top: calc(72%) !important;
+    left: calc(33%) !important;
   }
 
-  .new-title-text-stream {
+  /* .new-title-text-stream {
     max-height: 52px;
     z-index: 15;
     padding-bottom: 0;
-  }
+  } */
 }
 
 /* current progress */
@@ -226,7 +261,7 @@
     z-index: 190;
     /* animation: glow 2s ease-in-out infinite alternate; */
   }
-
+  /*
   .title {
     max-width: 60vw;
 
@@ -366,4 +401,6 @@
   #solara-pic {
     max-width: 25vw;
   }
+}
+*/
 }
