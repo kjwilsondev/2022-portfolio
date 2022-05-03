@@ -83,7 +83,7 @@ li {
   min-width: 25vw;
 
   position: absolute !important;
-  top: calc(20%) !important;
+  top: calc(16%) !important;
   left: calc(50% - 12.5vw) !important;
   transform: translate(-50%, -50%);
   margin: 0;
@@ -108,7 +108,7 @@ li {
   max-width: 32vw;
 
   position: absolute !important;
-  top: calc(32% - 3.5vw) !important;
+  top: calc(32% - 5.5vw) !important;
   left: calc(50% - 15.5vw) !important;
   transform: translate(-50%, -50%);
   margin: 0;
@@ -130,12 +130,12 @@ li {
   width: 33vw;
   font: "Khula", sans-serif;
   color: white;
-  font-size: 32px;
+  font-size: 28px;
   letter-spacing: 2px;
   text-shadow: 0 0 3px white;
 
   position: absolute !important;
-  top: calc(96%) !important;
+  top: calc(92%) !important;
   left: calc(42.5% - 7.5vw) !important;
   z-index: 100;
 }

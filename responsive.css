@@ -28,8 +28,10 @@
   }
 }
 
-@media only screen and (max-width: 1414px) {
+@media only screen and (max-width: 1250px) {
   .stream-bar {
+    font-size: 30px;
+    top: calc(80%) !important;
     width: 45vw;
   }
 }
