@@ -1,4 +1,4 @@
-# kj portfolio site
+# parallax portfolio site
 22.05.03 
 
 Hello! 🙋🏾‍♂️
