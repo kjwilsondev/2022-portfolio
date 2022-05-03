@@ -70,6 +70,16 @@
     z-index: 1;
   }
 
+  #solara-pic {
+    max-width: 25vw;
+  }
+
+  #handsinface {
+    top: calc(2.5%) !important;
+    left: calc(32.5%) !important;
+    z-index: 1;
+  }
+
   .stream-bar {
     width: 17.5vw;
     position: absolute !important;
@@ -83,6 +93,8 @@
     padding-bottom: 0;
   }
 }
+
+/* current progress */
 
 @media only screen and (max-width: 900px) {
   .stream-bar {
