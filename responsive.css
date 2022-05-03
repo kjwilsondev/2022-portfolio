@@ -26,11 +26,31 @@
     top: calc(83%) !important;
     left: calc(40.5% - 9.5vw) !important;
   }
+
+  #green {
+    top: calc(76%) !important;
+    left: calc(77%) !important;
+  }
 }
 
-@media only screen and (max-width: 1250px) {
+@media only screen and (max-width: 1280px) {
   .stream-bar {
     font-size: 30px;
+    top: calc(80%) !important;
+    width: 45vw;
+  }
+  #nugget {
+    top: calc(22.5%) !important;
+    left: calc(75%) !important;
+  }
+  #nugget-pic {
+    max-width: 23vw;
+  }
+}
+
+@media only screen and (max-width: 1220px) {
+  .stream-bar {
+    font-size: 28px;
     top: calc(80%) !important;
     width: 45vw;
   }
@@ -38,7 +58,7 @@
 
 @media only screen and (max-width: 1200px) {
   .stream-bar {
-    font-size: 3.2vh;
+    font-size: 26px;
     width: 47vw;
   }
 }
@@ -145,7 +165,7 @@
     font-size: 45px;
     max-height: 52px;
     z-index: 15;
-    padding-bottom: 2vh;
+    padding-bottom: 30px;
     margin: 0;
   }
 
@@ -162,7 +182,7 @@
 
 @media only screen and (max-width: 615px) {
   .cart {
-    padding: 1.25vh 2.75vw 1.25vh 2vw;
+    padding: 1.25vw 2.75vw 1.25vw 2vw;
     color: grey;
   }
 

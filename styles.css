@@ -137,7 +137,7 @@ li {
   position: absolute !important;
   top: calc(92%) !important;
   left: calc(42.5% - 7.5vw) !important;
-  z-index: 100;
+  z-index: 200;
 }
 
 .slide {
@@ -221,11 +221,11 @@ li {
   text-align: center;
   color: white;
   font-family: "Teko", sans-serif;
-  font-size: 3.5vh;
+  font-size: 25px;
   text-shadow: 0 0 10px white;
   transition: text-shadow 2s ease-in;
 
-  padding-top: 3vh;
+  padding-top: 25px;
 }
 
 .new-single {
@@ -243,7 +243,7 @@ li {
   display: flex;
   flex-direction: column;
   flex-wrap: wrap;
-  padding: 10vh 0 0 0;
+  padding: 6.5vw 0 0 0;
 }
 
 .new-title-cover {
@@ -263,7 +263,7 @@ li {
   color: #494949;
   font-family: "Khula", Helvetica, sans-serif;
   font-weight: bolder;
-  font-size: 7vh;
+  font-size: 40px;
   text-align: center;
 
   display: flex;
@@ -276,15 +276,7 @@ li {
 .new-title-text-stream {
   max-height: 52px;
   z-index: 15;
-  margin-bottom: 4vh;
-}
-
-.new-title-text-outnow {
-  color: #f7f7f7;
-  font-size: 3.5vh;
-  max-height: 52px;
-  overflow: hidden !important;
-  z-index: 16;
+  margin-bottom: 30px;
 }
 
 .new-title-text-icons {
@@ -317,24 +309,24 @@ li {
   text-align: center;
   z-index: 14;
 
-  padding: 5vh 0;
+  padding: 40px 0;
 }
 
 .credits {
   background-image: url("https://iamsu-iwds.s3-us-west-1.amazonaws.com/formlayer.png") !important;
   color: white;
-  font-size: 2vh;
+  font-size: 16px;
   font-family: "Khula", Helvetica, sans-serif;
   text-align: right;
   width: 100vw;
-  height: 5vh;
+  height: 40px;
   margin: auto;
   z-index: 14;
 }
 
 .credits-text {
-  padding-top: 1.5vh;
-  padding-right: 2vh;
+  padding-top: 12px;
+  padding-right: 16px;
   opacity: 0.5;
 }
 
