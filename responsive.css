@@ -36,6 +36,7 @@
 
 @media only screen and (max-width: 1200px) {
   .stream-bar {
+    font-size: 3.2vh;
     width: 47vw;
   }
 }

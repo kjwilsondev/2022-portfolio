@@ -41,7 +41,7 @@ li {
 }
 
 .icon {
-  padding: 1vh 2.5vw 1vh 2vw;
+  padding: 1vw 2.5vw 1vw 2vw;
   color: grey;
 }
 
@@ -96,7 +96,7 @@ li {
 .title-text {
   color: white;
   font-family: "Khula", sans-serif;
-  font-size: 3.5vh;
+  font-size: 30px;
   letter-spacing: 2px;
   text-shadow: 0 0 3px white;
   transition: text-shadow 2s ease-in;
@@ -105,10 +105,10 @@ li {
 }
 
 .title {
-  max-width: 35vw;
+  max-width: 32vw;
 
   position: absolute !important;
-  top: calc(32% - 7.5vh) !important;
+  top: calc(32% - 3.5vw) !important;
   left: calc(50% - 15.5vw) !important;
   transform: translate(-50%, -50%);
   margin: 0;
@@ -130,7 +130,7 @@ li {
   width: 33vw;
   font: "Khula", sans-serif;
   color: white;
-  font-size: 3.5vh;
+  font-size: 32px;
   letter-spacing: 2px;
   text-shadow: 0 0 3px white;
 
@@ -173,7 +173,6 @@ li {
   top: calc(80%) !important;
   left: calc(73%) !important;
   z-index: 10;
-  filter: grayscale(100%) brightness(70%);
 }
 
 #green-pic {
