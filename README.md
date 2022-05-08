@@ -3,6 +3,8 @@
 
 Hello! 🙋🏾‍♂️
 
+If you are looking for the code to my current portfolio it is in a private repo :(
+
 This is the repository for my hand-made portfolio site. 🙇🏾‍♂️
 This site is built with HTML, CSS, & JS
 I used parallax.js and the aos library. 
